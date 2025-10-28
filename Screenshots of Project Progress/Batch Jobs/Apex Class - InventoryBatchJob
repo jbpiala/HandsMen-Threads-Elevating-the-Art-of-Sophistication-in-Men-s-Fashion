@@ -48,8 +48,6 @@ System.debug('Inventory Sync Completed');
 
 }
 
-// Scheduler Method
-
 global void execute(SchedulableContext SC) {
 
 InventoryBatchJob batchJob = new InventoryBatchJob();
